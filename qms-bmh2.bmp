@@ -1,0 +1,5663 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+<html class="rwd geo-override no-js vis no-rtl headerfooter-menu3 " lang="en">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8"/>
+    
+
+
+
+
+
+<title>Intel® FPGAs and Programmable Devices-Intel® FPGA</title>
+    
+
+
+
+
+
+
+<link rel="preconnect" href="//dpm.demdex.net/" crossorigin>
+<link rel="dns-prefetch" href="//dpm.demdex.net/">
+<link rel="preconnect" href="//starget.intel.com/">
+<link rel="dns-prefetch" href="//starget.intel.com/">
+<link rel="preconnect" href="//elqtrk.intel.com/">
+<link rel="dns-prefetch" href="//elqtrk.intel.com/">
+<link rel="dns-prefetch" href="//onsite2.researchintel.com/">
+<link rel="preconnect" href="//tags.tiqcdn.com/" crossorigin>
+<link rel="dns-prefetch" href="//tags.tiqcdn.com/">
+<link rel="preconnect" href="//www91.intel.com/">
+<link rel="dns-prefetch" href="//www91.intel.com/">
+
+
+
+
+    <link rel="preload" href="/content/dam/www/global/wap/performance-config.js" as="script" type="text/javascript">
+    <script type="text/javascript" src='/content/dam/www/global/wap/performance-config.js'></script>
+    <link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/global/targetDataCookie.min.js" as="script" type="text/javascript">
+    <script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/global/targetDataCookie.min.js"></script>
+
+
+
+
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/us/en/Fonts/resources/intelone-display-light.woff2" as="font" type="font/woff2" crossorigin="true">
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/us/en/Fonts/resources/intelone-display-regular.woff2" as="font" type="font/woff2" crossorigin="true">
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/us/en/Fonts/resources/intel-clear-latin.woff2" as="font" type="font/woff2" crossorigin="true">
+
+<link rel="preload" href="/content/dam/logos/intel-header-logo.svg" as="image">
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/intc-core.min.css" as="style">
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/nav.min.css" as="style" type="text/css">
+
+    <link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/secondaryNav.min.css" as="style" type="text/css">
+
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/intc-core.min.js" as="script">
+
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/site-global-icons/resources/font/site-global-icons.woff2?16701488" as="font" type="font/woff2" crossorigin="true">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<!--[if lte IE 9]>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<![endif]-->
+
+
+    <meta name="twitter:card" content="summary"/>
+
+    <meta name="keywords" content="fpga, quartus ii, stratix 10, quartus prime, quartus, modelsim, asic, easic, structured asic"/>
+
+    <meta name="description" content="FPGA or field programmable gate array is a semiconductor integrated circuit where electrical functionality is customized to accelerate key workloads."/>
+
+    <meta name="language" content="en"/>
+
+    <meta name="location" content="us"/>
+
+    <meta name="robots" content="follow,index,noarchive"/>
+
+    <meta name="X-Server" content="INTE-T1"/>
+
+    <meta name="twitter:image" content="https://www.intel.com/content/dam/logos/logo-energyblue-1x1.png"/>
+
+
+    <meta property="og:image" content="https://www.intel.com/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/printlogo.png"/>
+
+    <meta property="og:type" content="company"/>
+
+    <meta property="og:site_name" content="Intel"/>
+
+    <meta property="og:title" content="Intel® FPGAs and Programmable Devices-Intel® FPGA"/>
+
+    <meta property="fb:admins" content="267985180046218"/>
+
+    <meta property="og:url" content="https://www.intel.com/content/www/us/en/products/programmable.html"/>
+
+    <meta property="og:description" content="FPGA or field programmable gate array is a semiconductor integrated circuit where electrical functionality is customized to accelerate key workloads."/>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+    <meta name="emtcontenttype" content="Content Type|DO NOT USE|Web Pages|Landing Pages;"/>
+
+    <meta name="contentpath" content="/content/www/us/en/products/programmable"/>
+
+    <meta name="authoreddate" content=""/>
+
+    <meta name="localecode" content="en_US"/>
+
+    <meta name="reimaginetoplevelcategory" content="Audience|Business|Technical Decision Maker (TDM)|Developer|FPGA Engineer;"/>
+
+    <meta name="mime" content="text/html"/>
+
+    <meta name="format" content="navigation"/>
+
+    <meta name="marketingproducts" content="Marketing Products|Programmable Solutions|Intel® Stratix® FPGAs and SoCs;"/>
+
+    <meta name="localizedtagname" content="Landing Pages"/>
+
+    <meta name="excludefromviews" content="false"/>
+
+    <meta name="taxonomy" content="etm-58ddc0115c99491186c8099abafb35d6;etm-d370f01035d54b9a8dc4f13a6e3665e4;"/>
+
+    <meta name="title" content="Intel® FPGAs and Programmable Devices-Intel® FPGA"/>
+
+    <meta name="menu" content=""/>
+
+    <meta name="reimaginefilters" content="Marketing Products|Programmable Solutions|Intel® Stratix® FPGAs and SoCs;"/>
+
+    <meta name="generic1" content="true"/>
+
+    <meta name="viewsctalabel" content="Learn More"/>
+
+    <meta name="emtaudience" content="Audience|Business|Technical Decision Maker (TDM)|Developer|FPGA Engineer;"/>
+
+    <meta name="intelkeywords" content="fpga, quartus ii, stratix 10, quartus prime, quartus, modelsim, asic, easic, structured asic"/>
+
+    <meta name="lastModifieddate" content="2022-09-27T20:26:20.617Z"/>
+
+    <meta name="thumbnailurl" content=""/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/etc.clientlibs/settings/wcm/designs/intel/default/resources/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/etc.clientlibs/settings/wcm/designs/intel/default/resources/favicon-16x16.png">
+<link rel="shortcut icon" href="/etc.clientlibs/settings/wcm/designs/intel/default/resources/favicon.ico">
+    
+
+
+
+
+
+<link rel="canonical" href="https://www.intel.com/content/www/us/en/products/programmable.html"/>
+<link rel="alternate" hreflang="en-sg" href="https://www.intel.sg/content/www/xa/en/products/programmable.html"/>
+        <link rel="alternate" hreflang="en-au" href="https://www.intel.com.au/content/www/au/en/products/programmable.html"/>
+        <link rel="alternate" hreflang="en-in" href="https://www.intel.in/content/www/in/en/products/programmable.html"/>
+        <link rel="alternate" hreflang="id-id" href="https://www.intel.co.id/content/www/id/id/products/programmable.html"/>
+        <link rel="alternate" hreflang="ja-jp" href="https://www.intel.co.jp/content/www/jp/ja/products/programmable.html"/>
+        <link rel="alternate" hreflang="ko-kr" href="https://www.intel.co.kr/content/www/kr/ko/products/programmable.html"/>
+        <link rel="alternate" hreflang="zh-cn" href="https://www.intel.cn/content/www/cn/zh/products/programmable.html"/>
+        <link rel="alternate" hreflang="zh-tw" href="https://www.intel.com.tw/content/www/tw/zh/products/programmable.html"/>
+        <link rel="alternate" hreflang="th-th" href="https://www.thailand.intel.com/content/www/th/th/products/programmable.html"/>
+        <link rel="alternate" hreflang="vi-vn" href="https://www.intel.vn/content/www/vn/vi/products/programmable.html"/>
+        <link rel="alternate" hreflang="fr-fr" href="https://www.intel.fr/content/www/fr/fr/products/programmable.html"/>
+        <link rel="alternate" hreflang="de-de" href="https://www.intel.de/content/www/de/de/products/programmable.html"/>
+        <link rel="alternate" hreflang="it-it" href="https://www.intel.it/content/www/it/it/products/programmable.html"/>
+        <link rel="alternate" hreflang="pl-pl" href="https://www.intel.pl/content/www/pl/pl/products/programmable.html"/>
+        <link rel="alternate" hreflang="ru-ru" href="https://www.intel.ru/content/www/ru/ru/products/programmable.html"/>
+        <link rel="alternate" hreflang="es-es" href="https://www.intel.es/content/www/es/es/products/programmable.html"/>
+        <link rel="alternate" hreflang="tr-tr" href="https://www.intel.com.tr/content/www/tr/tr/products/programmable.html"/>
+        <link rel="alternate" hreflang="en-uk" href="https://www.intel.co.uk/content/www/uk/en/products/programmable.html"/>
+        <link rel="alternate" hreflang="es-mx" href="https://www.intel.la/content/www/xl/es/products/programmable.html"/>
+        <link rel="alternate" hreflang="pt-br" href="https://www.intel.com.br/content/www/br/pt/products/programmable.html"/>
+        <link rel="alternate" hreflang="en-us" href="https://www.intel.com/content/www/us/en/products/programmable.html"/>
+        <link rel="alternate" hreflang="x-default" href="https://www.intel.com/content/www/us/en/products/programmable.html"/>
+            <link rel="alternate" hreflang="en-ca" href="https://www.intel.ca/content/www/ca/en/products/programmable.html"/>
+        <link rel="alternate" hreflang="fr-ca" href="https://www.intel.ca/content/www/ca/fr/products/programmable.html"/>
+        
+    
+
+    <style>
+    @-ms-viewport{width:device-width;}
+     
+    </style>
+    
+        
+        
+            
+                
+                
+                    <link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/intc-core.min.css" as="style"><link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/intc-core.min.css" type="text/css"><script src="/etc.clientlibs/clientlibs/granite/jquery.min.js" defer></script><script src="/etc.clientlibs/clientlibs/granite/utils.min.js" defer></script><script src="/etc.clientlibs/clientlibs/granite/jquery/granite.min.js" defer></script><script src="/etc.clientlibs/foundation/clientlibs/jquery.min.js" defer></script><script src="/etc.clientlibs/settings/wcm/clientlibs/ver/220921/foundation/jquery.min.js" defer></script><script src="/etc.clientlibs/foundation/clientlibs/shared.min.js" defer></script><script src="/etc.clientlibs/cq/personalization/clientlib/underscore.min.js" defer></script><script src="/etc.clientlibs/cq/personalization/clientlib/personalization/kernel.min.js" defer></script><script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/us/en/clientlibs/jquery-3.6.0.min.js" defer></script><script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/intc-core.min.js" defer></script>
+                    
+                
+            
+        
+    
+    
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+<body class="page-is-published global-nav">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="skip-to-main-content">
+    <div class="sb-skipLinkWrapper invisible">
+        <a href="#primary-content" class="inline-block bg-greenDarkApron color-textWhite text-bold text-noUnderline sb-skipLink visible">Skip To Main Content</a>
+    </div>
+</div>
+
+
+<div class="promo-banner-content"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var isLoggedin = (document.cookie.indexOf('IGHFLoggedIn') != -1);
+    var loginValidateURL = 'https://www.intel.com/libs/apps/intel/myintel/profile.html/validate/loggedin';
+</script>
+
+
+
+
+
+    
+        <div class="global">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/nav.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/secondaryNav.min.css" type="text/css">
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+    
+    
+        <div class="global-nav-redesign global component" data-component="global-nav-redesign" data-component-id="1">
+            <header role="banner">
+                <nav class="intel-navbar advanced-search" role="navigation" aria-label="main navigation" data-igm="">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-wraper">
+
+                        <div class="navbar-logo">
+                            <a href="/content/www/us/en/homepage.html" alt="Intel homepage" class="intel-logo-rebrand">
+                                    
+                                <img src="/content/dam/logos/intel-header-logo.svg" height="300" width="118" alt="Intel logo - Return to the home page">
+                            </a>
+                        </div>
+
+                        <div class="navbar-left">
+                            <!-- mobile: menu toggle, sign in -->
+                            <div class="visible-xs">
+                                <button type="button"
+                                        data-wap="{&quot;linktype&quot;:&quot;level1&quot;}"
+                                        class="mega-hamburger nav-link-icon nav-link-icon-toggle collapsed"
+                                        data-target="#primary-nav" aria-expanded="false" aria-controls="primary-nav"
+                                        data-mega-control="hamburger">
+                                    <span class="sr-only">Toggle Navigation</span>
+                                    <span class="fa-intel-menu icon-toggle-off"></span>
+                                    <span class="fa-cancel-thin icon-toggle-on"></span>
+                                </button>
+                            </div>
+
+                            <!-- START DYNAMIC NAVIGATION MENEU -->
+                            <div class="collapse mega-menu-collapse" id="primary-nav">
+                                <div class="mega-menu-wrap">
+                                    <ol class="mega-navbar unique-container-global-nav-items">
+                                        <!-- Start: Primary Nav Items -->
+
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- START MOBLE TOGGLE buttons -->
+                        <div class="navbar-right">
+
+
+                            <!-- START: NON-signed in panel -->
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+    
+
+
+<span id="not-logged-in-scenario" class="hidden">
+    <button type="button" title="Sign In" class="nav-link-icon nav-link-icon-toggle collapsed"
+            data-wap="{&quot;linktype&quot;:&quot;level1&quot;}"
+            data-target="#panel-signin" aria-expanded="false" aria-controls="panel-signin"
+            data-mega-control="signin">
+        <span class="sr-only">Sign In</span>
+        <span class="fa-intel-user-o icon-toggle-off"></span>
+        <span class="fa-intel-user icon-toggle-on"></span>
+    </button>
+
+    <div class="mega-panel panel-layout-signin collapse" id="panel-signin">
+    <div class="mega-panel-wrap">
+        <div class="mega-panel-body">
+            <div class="panel-content flex-content-wrap">
+                <div class="panel-item with-sep-line panel-col-1of2">
+                    <form id="igm-form-signin" action="https://www.intel.com/libs/apps/intel/login.json/securitytoken" method="POST" name="igm-form-signin" class="intel-form" novalidate="">
+                        <h3 class="section-title">Sign In</h3>
+                        <div class="flex-layout-md">
+                            <div class="form-group flex-col-md vertical-gutter">
+                                <label for="username"  class="component" data-component="wa_skip_track" data-component-id="1">
+                                    <span class="sr-only">Username</span>
+                                    <input class="form-control form-input" aria-describedby="uname-error" name="userid"
+                                           id="username" placeholder="Username" required="">
+                                </label>
+                                <div class="error validation-messages " id="uname-error">
+                                    <div class="rule broken">Your username is missing</div>
+                                </div>
+                            </div>
+                            <div class="form-group flex-col-md vertical-gutter">
+                                <label for="password" class="component" data-component="wa_skip_track" data-component-id="1">
+                                    <span class="sr-only">Password</span>
+                                    <input type="password" class="form-control form-input" aria-describedby="pwd-error" id="password"
+                                           name="password" placeholder="Password" required="" autocomplete="off">
+                                </label>
+                                <div class="error validation-messages " id="pwd-error">
+                                    <div class="rule broken">Your password is missing</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="vertical-gutter">By signing in, you agree to our <a href="/content/www/us/en/legal/terms-of-use.html"/>Terms of Service</a>.</p>
+
+                        <div class="flex-layout-md flex-align-center vertical-gutter">
+                            <input type="hidden" name="callBack" id="callBackSimplify">
+                            <input type="hidden" name="queryParam" id="queryParam">
+                            <input type="submit" class="btn btn-primary blue-btn-white-text"
+                                   value="Sign In"
+                                   data-wap="{&quot;linktype&quot;:&quot;sign-in&quot;}">
+                            <label for="cbRememberMe" class="has-switch-input">
+                                <input id="cbRememberMe" name="rememberme" type="checkbox" value="true">
+                                <span class="check-box"></span>
+                                <span>Remember me</span>
+                            </label>
+                        </div>
+
+                        <p class="vertical-gutter">
+                            Forgot your Intel
+                            <a href="https://www.intel.com/content/www/us/en/my-intel/forgot-userid.html">username</a>
+                            or
+                            <a href="https://www.intel.com/content/www/us/en/my-intel/forgot-password.html">password</a>?
+                        </p>
+                        <p class="vertical-gutter">
+                            <a href="/content/www/us/en/support/topics/sign-in-faq.html">Frequently Asked Questions</a>
+                        </p>
+                    </form>
+                    <div class="alert alert-danger" id="login-error" role="alert"></div>
+                </div>
+                <div class="panel-item panel-col-variant">
+                    <div class="padding-wrap valign-to-input">
+                        <p class="vertical-gutter">Do you work for Intel? <a data-wap_ref="sign-in-general" href="#" onclick="intel.signinsimplify.geturl('https://myapps.microsoft.com/signin/Azure_To_SEPMP_Bridge_PR_IAP_7086/b5335fcd-30d1-4825-8a79-4234279c8301?tenantId=46c98d88-e344-4ed4-8496-4ed7712e255d&RelayState=')">
+                            Sign in here</a>.
+                        </p>
+                        
+                            <p class="vertical-gutter">Don’t have an Intel account?
+                                <a data-wap_ref="sign-up-general" href="#" onclick="intel.signinHeaderSimplify.doRedirect('/forms/basic-intel-registration.html')"> Sign up here </a>
+                                for a basic account.
+                            </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</span>
+
+<iframe id="frameSigninSimplify" tabindex="-1" title="My Intel Sign in" aria-hidden="true" name="frameSigninSimplify" src="/etc.clientlibs/settings/wcm/designs/intel/clientlibs/pages/commons-page/resources/html/idamFormStaticSimplify.html" style="display:none;"></iframe>
+
+<script>
+
+    
+    
+    
+    var intel = intel || {};
+    intel.signinsimplifyConfig = {
+        locale: '',
+        messages: {
+            InvalidCredential: 'The username or password you entered was invalid.',
+            InvalidField: 'The username or password you entered was invalid.',
+            AccountDisabled: 'For security reasons, your account has been disabled. For help, <a href=\"#\" class=\"contactLink new-tab-link\" target=\"_blank\" rel=\"noopener noreferrer\" >contact us<\/a>.',
+            AccountLocked: 'Your account has been locked. For help, please read the <a href=\"#\" class=\"faqsLink new-tab-link\" target=\"_blank\" rel=\"noopener noreferrer\" >Sign In FAQ<\/a>.',
+            UserNotFound: 'The username or password you entered was invalid.',
+            Unknown: 'An unexpected error occurred. Try it again. For help, use the contact or support options below.',
+            PasswordExpired: 'Your password is expired. Please change your password.',
+            LoginAssistLink: 'https://signin.intel.com/ContactUs.aspx',
+            faqsLink: '/content/www/my-intel/sign-in-help.html'
+        },
+        nameField: 'Username',
+        passField: 'Password',
+        signinUrl: '/libs/apps/intel/login.json/securitytoken',
+        isPopup: true,
+        responseHref: 'https://www.intel.com/content/www/us/en/products/programmable.html?' + window.location.hash,
+        sslDomainUrl: 'www.intel.com',
+        loginUrl: 'https://welcome.intel.com/login.aspx?appid=258&qlogin=true',
+        ssoUri: 'https://federatesso.intel.com',
+        logoutUrl: 'https://welcome.intel.com/logout.aspx',
+        logoutHref: 'https://signin.intel.com/Logout?RedirectURL=https://www.intel.com/content/www/us/en/products/programmable' + '.html',
+        logoutIGHFHref: 'https://signin.intel.com/Logout?RedirectURL=',
+        loginErrorID: '#login-error',
+        usernameID: '#username',
+        remembermeId: '#cbRememberMe',
+        formID: '#igm-form-signin',
+        unameErrorID: '#uname-error',
+        passID: '#password',
+        passError: '#pwd-error',
+        changePasswordUrl: '/content/www/us/en/my-intel/change-password.html',
+        emailVerificationUrl: '/content/www/us/en/my-intel/email-verification.external.html',
+        aboutToExpireEmailUrl: '/content/www/us/en/my-intel/email-verification.html',
+        renewalUrl: '/content/www/us/en/secure/technology-provider/forms/renew-technology-provider-membership.html',
+        limitedUrl: '/content/www/us/en/resellers/limited-status-secondary.html',
+        isaPRMDashBoardURL: '/content/www/us/en/secure/partner/solutions-alliance/overview.html',
+        itpPRMDashBoardURL: '/content/www/us/en/secure/partner/technology-provider/iot/overview.html',
+        itpisaPRMDashBoardURL: '/content/www/us/en/secure/partner/iot-itp-isa/overview.html',
+        isaRenewalURL: '/content/www/us/en/secure/partner/forms/solutions-alliance-renewal.html',
+        primaryPostLaunchURL: 'https://partner.intel.com/s/post-launch-primary',
+        nonPrimaryPostLaunchURL: 'https://partner.intel.com/s/post-launch-non-primary',
+        idpUrl: 'https://sfederation.intel.com/federation2/sp/WebExperienceManagementSolutiononAEMforIntel/d3d3LmludGVsLmNvbQ%3D%3D'
+    };
+    
+    if (!isLoggedin && ((document.domain.indexOf("thailand") == -1 && document.domain.endsWith(".intel.com")) || document.getElementById("recode50header") != null) && (navigator != null && navigator.userAgent.indexOf("CloudManagerTest") == -1)) {
+        try {
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.open('HEAD','https://sfederation.intel.com/federation/status.asp', false);
+            xmlhttp.withCredentials="true";
+            xmlhttp.send();
+            if (200 == xmlhttp.status) {
+                var currentUrl = window.location.href;
+                var cookiename = "IGHFtarget";
+                var samlcookieValue = cookiename + "=" + encodeURIComponent(currentUrl) + ";secure;path=/;domain=.intel.com";
+                document.cookie= samlcookieValue;
+                window.location.href = 'https://sfederation.intel.com/federation2/sp/WebExperienceManagementSolutiononAEMforIntel/d3d3LmludGVsLmNvbQ%3D%3D';
+            }
+        } catch(error) {
+        }
+    }
+    
+</script>
+<script defer src="/content/dam/www/global/network.js" type="text/javascript"></script>
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="myinteldrpdown-template" type="text/x-handlebars-template">
+    <section class="myintel-tools-content" role="region"
+             aria-label="My Intel">
+        
+        <div class="panel-header force-background solid brand-very-dark-gray my-intel-menu">
+            <button type="button" class="icon close pull-right" data-igm-search-toggle="" aria-label="Close"
+                    tabindex="0" data-wap="" data-wap_ref="myintel-navmenu-closing">
+                <span></span>
+            </button>
+            <ul class="nav nav-tabs component">
+                
+                    
+                    
+                        
+                    
+                    
+                    
+                    
+                
+                <li role="presentation" class="active" data-step='1'  data-title='My Intel Dashboard and My Tools'  data-intro='<p>Click here to access the My Intel Dashboard from any Intel.com page. From here you can also access your Subscriptions page, as well as your personalized list of tools.</p>'>
+                    <a href="#my-intel" role="tab" tabindex="0">My Intel<span
+                            class="fa fa-user"></span></a>
+                </li>
+            </ul>
+        </div>
+        
+
+        <div class="my-intel-panel-body tab-content">
+            
+            <div role="tabpanel" class="tab-pane fade in active" id="my-intel">
+                <ul class="myintel-links">
+                    {{#each myintelpagelinks}}
+                    <li data-agsrole="{{{agsrole}}}"
+                        data-blacklistedagsrole="{{{blacklistedagsgroupname}}}"
+                        data-isinternal="{{{displayOnlyInternal}}}"
+                        data-isexternal="{{{displayOnlyExternal}}}"
+                        class="{{{class}}}">
+                        <a target="{{{target}}}"
+                           href="{{{href}}}" tabindex="0">{{{label}}}</a>
+                    </li>
+                    {{/each}}
+                </ul>
+                <div class="tools-pane component" data-component="myintel-tools" data-component-id="1">
+                    <h5 class="my-intel-tools">My Tools</h5>
+                    
+                    <ul class="myintel-links">
+                        {{#each mytoollinks}}
+                        <li class="myintellink"
+                            data-isinternal="{{{displayOnlyInternal}}}"
+                            data-isexternal="{{{displayOnlyExternal}}}">
+                            <h3 style="display:none;">{{{agsgroupname}}}</h3>
+                            <h4 style="display:none;">{{{blacklistedagsgroupname}}}</h4>
+                            <a tabindex="0" href="{{{linkurl}}}" target="_blank" rel="noopener noreferrer" title="">{{{linktext}}}</a>
+                            {{#if tooltip}}
+                            <a class="fa fa-help-circled" tabindex="0" data-toggle="tooltip" data-html="true"
+                                  data-title="{{tooltip}}" data-placement="bottom" data-wap_ref="tooltip:{{{linktext}}}"><span class="sr-only">{{tooltip}}</span></a>
+                            {{/if}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</script>
+
+
+<span id="logged-in-scenario" class="hidden">
+
+<button type="button" title="My Intel"
+        data-wap="{&quot;linktype&quot;:&quot;level1&quot;}"
+        class="nav-link-icon nav-link-icon-toggle collapsed" data-target="#panel-signedin" aria-expanded="false"
+        aria-controls="panel-signedin" data-mega-control="signedin">
+    <span class="sr-only">My Intel</span>
+    <span class="fa-intel-user-checked-o icon-toggle-off"></span>
+    <span class="fa-intel-user-checked icon-toggle-on"></span>
+</button>
+
+<div class="mega-panel panel-layout-signed-in collapse" id="panel-signedin">
+    <div class="mega-panel-wrap">
+        <div class="mega-panel-body">
+            <div class="panel-content flex-content-wrap">
+
+                <!-- MyIntel Section -->
+                <!-- -------------------------------------------------------------- -->
+                <div class="panel-item hidden" id="myIntelPageLinks">
+                    <a id="myIntelPageLinksHeader" class="nav-l3 has-border has-link"></a> <!-- {{#if heading.onState}} selected{{/if}} {{#if heading.onStateParent}} selected-parent{{/if}} -->
+                    <div class="panel-item-content">
+                        <ul id="myIntelPageLinksItemList" class="panel-links nav-l4-list list-unstyled">
+
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- My Tools Section -->
+                <!-- -------------------------------------------------------------- -->
+                <div class="panel-item col-span-2" id="myIntelTools">
+                    
+                    <div class="nav-l3">
+                        My Tools
+                    </div>
+
+                    <div class="panel-item-content">
+                        <!--
+                            Note: right now this panel (myTools) has only one column/ul
+                            if more columns are needed, remove below's 'w-auto' class
+                        -->
+                        <ul class="panel-links nav-l4-list list-unstyled w-auto" id="mytools-ul">
+
+                            <!-- this 'li' will be used as the template to populate this section from the js -->
+                            <li class="hidden">
+                                <a class="nav-l4"></a>
+
+                                <button class="btn-tooltip-trigger hidden" data-toggle="tooltip" data-placement="bottom"
+                                        title="" data-original-title="">
+                                    <span>?</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item-actions">
+               <button type="button" class="btn btn-primary"
+                       data-sso-uri='https://federatesso.intel.com'
+                       data-logout-uri="" data-wap="{&quot;linktype&quot;:&quot;logout&quot;}"
+                       onclick="intel.signinsimplify.signOut()">Sign Out</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</span>
+
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<button type="button" title="Language Selector"
+        data-wap="{&quot;linktype&quot;:&quot;level1&quot;}"
+        class="nav-link-icon nav-link-icon-toggle collapsed"
+        data-target="#panel-language-selector" aria-label="USA (English)"
+        aria-expanded="false" aria-controls="panel-language-selector"
+        data-mega-control="language-selector">
+    <span class="fa-intel-globe-o icon-toggle-off"></span>
+    <span class="fa-intel-globe icon-toggle-on"></span>
+    <span class="nav-link-icon-label">USA (English)</span>
+</button>
+
+<div class="mega-panel panel-layout-language collapse" id="panel-language-selector"
+     aria-expanded="false" aria-selected="false" aria-collapsed="true">
+    <div class="mega-panel-wrap">
+        <div class="mega-panel-body">
+            <div class="mega-panel-heading">
+                <h2 class="nav-l2">
+                    Select Your Region
+                </h2>
+            </div>
+            <div class="panel-content flex-content-wrap">
+                
+                    <div class="panel-item">
+                        <!-- region.countryName is actually region name -->
+                        <h3 class="nav-l3 no-border">Asia Pacific</h3>
+                        <ul class="list-unstyled panel-links nav-l4-list">
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_xa" href="https://www.intel.sg/content/www/xa/en/products/programmable.html">
+                                            Asia Pacific (English)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_au" href="https://www.intel.com.au/content/www/au/en/products/programmable.html">
+                                            Australia (English)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_in" href="https://www.intel.in/content/www/in/en/products/programmable.html">
+                                            India (English)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="id_id" href="https://www.intel.co.id/content/www/id/id/products/programmable.html">
+                                            Indonesia (Bahasa Indonesia)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="ja_jp" href="https://www.intel.co.jp/content/www/jp/ja/products/programmable.html">
+                                            Japan (日本語)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="ko_kr" href="https://www.intel.co.kr/content/www/kr/ko/products/programmable.html">
+                                            Korea (한국어)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="zh_cn" href="https://www.intel.cn/content/www/cn/zh/products/programmable.html">
+                                            Mainland China (简体中文)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="zh_tw" href="https://www.intel.com.tw/content/www/tw/zh/products/programmable.html">
+                                            Taiwan (繁體中文)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="th_th" href="https://www.thailand.intel.com/content/www/th/th/products/programmable.html">
+                                            Thailand (ไทย)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="vi_vn" href="https://www.intel.vn/content/www/vn/vi/products/programmable.html">
+                                            Vietnam (Tiếng Việt)
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div class="panel-item">
+                        <!-- region.countryName is actually region name -->
+                        <h3 class="nav-l3 no-border">Europe</h3>
+                        <ul class="list-unstyled panel-links nav-l4-list">
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="fr_fr" href="https://www.intel.fr/content/www/fr/fr/products/programmable.html">
+                                            France (Français)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="de_de" href="https://www.intel.de/content/www/de/de/products/programmable.html">
+                                            Germany (Deutsch)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_ie" href="https://www.intel.ie/content/www/ie/en/homepage.html">
+                                            Ireland (English)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="it_it" href="https://www.intel.it/content/www/it/it/products/programmable.html">
+                                            Italy (Italiano)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="pl_pl" href="https://www.intel.pl/content/www/pl/pl/products/programmable.html">
+                                            Poland (Polski)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="ru_ru" href="https://www.intel.ru/content/www/ru/ru/products/programmable.html">
+                                            Russia (Русский)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_es" href="https://www.intel.es/content/www/es/es/products/programmable.html">
+                                            Spain (Español)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="tr_tr" href="https://www.intel.com.tr/content/www/tr/tr/products/programmable.html">
+                                            Turkey (Türkçe)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_uk" href="https://www.intel.co.uk/content/www/uk/en/products/programmable.html">
+                                            United Kingdom (English)
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div class="panel-item">
+                        <!-- region.countryName is actually region name -->
+                        <h3 class="nav-l3 no-border">Latin America</h3>
+                        <ul class="list-unstyled panel-links nav-l4-list">
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_xl" href="https://www.intel.la/content/www/xl/es/products/programmable.html">
+                                            Argentina (Español)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="pt_br" href="https://www.intel.com.br/content/www/br/pt/products/programmable.html">
+                                            Brazil (Português)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_xl" href="https://www.intel.la/content/www/xl/es/products/programmable.html">
+                                            Chile (Español)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_xl" href="https://www.intel.la/content/www/xl/es/products/programmable.html">
+                                            Colombia (Español)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_xl" href="https://www.intel.la/content/www/xl/es/products/programmable.html">
+                                            Latin America (Español)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_xl" href="https://www.intel.la/content/www/xl/es/products/programmable.html">
+                                            Mexico (Español)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="es_xl" href="https://www.intel.la/content/www/xl/es/products/programmable.html">
+                                            Peru (Español)
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div class="panel-item">
+                        <!-- region.countryName is actually region name -->
+                        <h3 class="nav-l3 no-border">Middle East/Africa</h3>
+                        <ul class="list-unstyled panel-links nav-l4-list">
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    <a class="nav-l4" data-locale="he_il" href="https://www.intel.co.il/content/www/il/he/homepage.html">
+                                            Israel (עברית)
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+                    <div class="panel-item">
+                        <!-- region.countryName is actually region name -->
+                        <h3 class="nav-l3 no-border">North America</h3>
+                        <ul class="list-unstyled panel-links nav-l4-list">
+                            
+                                
+                                
+                                    <li class="selected lang-option">
+                                
+                                
+                                
+                                    
+                                    
+                                        
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_us" href="https://www.intel.com/content/www/us/en/homepage.html">
+                                            United States (English)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="en_ca" href="https://www.intel.ca/content/www/ca/en/products/programmable.html">
+                                            Canada (English)
+                                    </a>
+                                </li>
+                            
+                                
+                                
+                                
+                                    <li class="lang-option">
+                                
+                                
+                                    
+                                        
+                                    
+                                    
+                                
+                                    <a class="nav-l4" data-locale="fr_ca" href="https://www.intel.ca/content/www/ca/fr/products/programmable.html">
+                                            Canada (Français)
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                            <!-- END: NON-sign in panel -->
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    <button type="button" title="Search intel.com" class="nav-link-icon toggle-search collapsed"
+            data-target="#simplify-search" aria-expanded="false"
+            aria-controls="simplify-search" data-mega-control="global-search">
+        <span class="sr-only">Toggle Search</span>
+        <span class="fa-global-search"></span>
+    </button>
+    <div class="mega-panel mega-search-panel collapse" id="simplify-search"
+         aria-expanded="false" aria-selected="false" aria-collapsed="true"
+         document-height="true">
+        <div class="mega-panel-wrap">
+            <div class="mega-panel-body">
+                <div class="panel-content">
+                    <div class="search-component search-component"
+                         data-igm-search-content="">
+                        <form class="mega-search-form search item" data-igm-search-control="" name="hpsform-new" id="hpsform-new" action="/content/www/us/en/search.html" role="search" onsubmit="return inputSearch()">
+                            <button type="submit" class="btn-mega-search icon"
+                                    aria-label="Search" tabindex="-1">
+                                <span class="sr-only">Search</span>
+                                <span class="fa-global-search"></span>
+                            </button>
+
+                            
+                                
+                                
+                                    <label for="mobile-search">
+                                        <span class="sr-only"><</span>
+                                        <input id="toplevelcategory" name="toplevelcategory" type="hidden" value="none">
+                                        <input id="query" name="query" type="hidden" value="">
+                                        <input data-tabindex="1" class="form-control" data-search-input
+                                               id="mobile-search" name="keyword" type="text"
+                                               data-igm-search-input title="Search" autocomplete="off"
+                                               data-target-result="#igm-search-result" aria-controls="mega-results-overlay" aria-label="Search Intel.com" placeholder="Search Intel.com">
+                                    </label>
+                                
+                            
+                            
+                            <button type="button" id="cls-btn-advanced" class="btn-mega-close fa-cancel-1 hide-flyout" aria-label="Clear Search Term" data-clear-input="clear-input">
+									<span class="sr-only">Close Search Panel</span>
+							</button>
+                                <button type="button" id="advanced-btn" class="btn-advance-filter fa-sliders hide-flyout" aria-label="Advanced Search Panel" data-mega-advanced-search="advanced-search">
+                                            <span class="sr-only">Advanced Search</span>
+                                </button>
+                            
+                            
+
+                        </form>
+                        <!-- 
+                            'hidden' class is conditionally removed on load @ intel.search-dropdown.js
+                         -->
+                        <div class="results-overlay mega-results-overlay search-quick-links "  aria-live="off"
+                             id="mega-results-overlay" data-component="wa_skip_track">
+                             
+                                 <div class="mega-close-container">
+									<button aria-label="Close search panel" class="btn-icon no-style close-result-toggle flyout-close" data-mega-close="global-search">
+									close
+									</button>
+								</div>
+                            
+                            <!-- Search Result Typeahead -->
+                            <div class="results-typeahead collapse" id="igm-search-result"
+                                 data-igm-search-results="">
+                                <div class="overlay-content">
+                                    <!--<h3>Top Results </h3>-->
+                                    <!-- added content-quick-search class -->
+                                    <div class="content-quick-search">
+                                    </div>
+                                </div>
+                                <div class="search-info">
+                                    <a href="javascript:void();" class="login-toggle" data-activate-mega-control="signin">
+                                        Sign In</a> to access restricted content
+                                </div>
+                            </div>
+                            <!-- Recent Searches: 1) display default search info if no search terms is available  -->
+                            <!-- Recent Searches: 2) display recenter terms when available and hide default search info  -->
+                            <div class="results-recent collapse" data-igm-search-related="">
+                                <div>
+                                    <!-- default search info -->
+                                    <div class="content-search-block content-search-info">
+                                        <h3>Using Intel.com Search</h3>
+                                        <p>You can easily search the entire Intel.com site in several ways.</p>
+                                        <ul>
+                                            <li>
+                                                Brand Name:
+                                                <strong>
+                                                    Core i9
+                                                </strong>
+                                            </li>
+                                            <li>
+                                                Document Number:
+                                                <strong>
+                                                    123456
+                                                </strong>
+                                            </li>
+                                            <li>
+                                                Code Name:
+                                                <strong>
+                                                    Alder Lake
+                                                </strong>
+                                            </li>
+                                            <li>
+                                                Special Operators:
+                                                <strong>
+                                                    “Ice Lake”, Ice AND Lake, Ice OR Lake, Ice*
+                                                </strong>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- quick links is always visible on the recents overlay -->
+                                    <div class="content-search-block content-quick-links">
+                                        <h3>Quick Links</h3>
+                                        <p>You can also try the quick links below to see results for most popular searches.</p>
+                                        <ul>
+                                            <!--<li>
+                                                <a class="quick-link" rel="noopener noreferrer"
+                                                   href=https://ark.intel.com?wapkw=quicklink:product-specifications>
+                                                    Product Specifications
+                                                </a>
+                                            </li>-->
+                                            <li>
+                                                <a class="quick-link" rel="noopener noreferrer" href="https://www.intel.com/content/www/us/en/products/overview.html?wapkw=quicklink:products">
+                                                    Product Information
+                                                </a>
+                                            </li>
+                                            <li><a class="quick-link" rel="noopener noreferrer" href="https://www.intel.com/content/www/us/en/support.html?wapkw=quicklink:support">
+                                                Support
+                                            </a>
+                                            </li>
+                                            <li>
+                                                <a class="quick-link" rel="noopener noreferrer" href="https://downloadcenter.intel.com?wapkw=quicklink:download-center">
+                                                    Drivers & Software
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- recent search terms -->
+                                    <div class="results-overlay results-recent results component content-search-block content-recent" data-component="wa_skip_track"
+                                         data-component-id="1">
+                                        <div class="overlay-content recent-searches-terms">
+                                            <h3>Recent Searches</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="search-info">
+                                    <a href="javascript:void();" class="login-toggle" data-activate-mega-control="signin">
+                                        Sign In</a> to access restricted content
+                                </div>
+                            </div>
+                            
+                                 <div class="results-advanced collapse" data-igm-advanced-search="">
+											<div class="overlay-content">
+												<!-- default search info -->
+												<div class="content-search-block content-search-info component" data-component="wa_skip_track" data-component-id="1">
+													<h3>Advanced Search</h3>
+													<div class="controls-wrapper">
+														<div class="controls">
+															<div class="input-group select-control">
+																<select class="documentation-card-version-select" name="find-results" id="find-results">
+																	<option value="All of these terms" selected="">All of these terms</option>
+																	<option value="Any of these terms">Any of these terms</option>
+																	<option value="Exact term only">Exact term only</option>
+																</select>
+																<label class="select-label" for="find-results">Find results with</label>
+															</div>
+
+															<div class="input-group select-control">
+                                                                <select class="selectAdvanced" name="show-results-from" id="show-results-from">
+                                                                    <option value="allResults" selected="" aria-label="all Results">
+                                                                        All Results
+                                                                    </option>
+                                                                    <option value="Products" aria-label="Products">
+                                                                        Product Information
+                                                                    </option>
+                                                                    <option value="Support">
+                                                                        Support
+                                                                    </option>
+                                                                    <option value="Downloads">
+                                                                        Drivers & Software
+                                                                    </option>
+                                                                    <option value="Developers">
+                                                                        Documentation & Resources
+                                                                    </option>
+                                                                    <!-- <option value="Solutions">Solutions</option>-->
+                                                                    <option value="Partners">
+                                                                        Partners
+                                                                    </option>
+                                                                    <option value="forums">
+                                                                        Communities
+                                                                    </option>
+                                                                    <option value="Corporate">
+                                                                        Corporate
+                                                                    </option>
+                                                                </select>
+																<label class="select-label" for="show-results-from">Show results from</label>
+															</div>
+														</div>
+
+														<div class="controls">
+															<h3 
+                                                            >Only search in</h3>
+															<div class="input-group" aria-label="Only Search In">
+																<label for="search_title">
+																	<input name="search_title" id="search_title" type="checkbox">
+																	Title</label>
+
+																	<label for="search_description">
+																	<input name="search_description" id="search_description" type="checkbox">
+																Description</label>
+
+																	<label for="search_id">
+																	<input name="search_id" id="search_id" type="checkbox">Content ID</label>
+															</div>
+
+															<button role="button" type="button" class="btn btn-primary" id="advanced-search-submit" data-wap data-wap-ref="search-button">
+																Search
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="search-info">
+												<a href="javascript:void();" class="login-toggle" data-activate-mega-control="signin">Sign in</a> to access
+												restricted content.
+											</div>
+										</div>
+                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    var global_config = {
+        "icsUrl": "https://supporttickets.intel.com/services/oauth2/authorize?response_type=token&client_id=3MVG9QDx8IX8nP5Rh0X3B7gohGtUh8sjFQ8Tw_U8sS9_PoVrupDFwZ_nwLcze2n64lGBbGchyUb7_9W8n8pAV&redirect_uri=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fsecure%2Fmy-intel%2Ftoken.html",
+        "ipsUrl": "https://premiersupport.intel.com/IPS/services/oauth2/authorize?response_type=token&client_id=3MVG9xOCXq4ID1uEa5F2lCYAp6mmKvTMlKbMIrsMKShY2oOqs1ETvPRjwmhoPivHd9_U53EzmiyYxn3nVpA9J&redirect_uri=https%3A%2F%2Fwww.intel.com%2Fcontent%2Fwww%2Fus%2Fen%2Fsecure%2Fmy-intel%2Ftoken.html"
+    };
+
+
+    function inputSearch() {
+    if (globalSearch.advancedSearchFlag == 'true') {
+        var findResults = $("#find-results").val();
+        var showResults = $("#show-results-from").val();
+        var titleIsChecked = $("#search_title").is(":checked");
+        var descriptionIsChecked = $("#search_description").is(":checked");
+        var idIsChecked = $("#search_id").is(":checked");
+        var searchInputValue = $("#mobile-search").val();
+
+        if (findResults != 'All of these terms' || showResults != "allResults" || titleIsChecked || descriptionIsChecked || idIsChecked) {
+            if (searchInputValue) {
+                return advancedSearch();
+            }
+            else {
+                return INTEL_TYPE_AHEAD.onSubmitHps('Search', '/content/www/us/en', 'en_US');
+            }
+        }
+
+        else {
+            return INTEL_TYPE_AHEAD.onSubmitHps('Search', '/content/www/us/en', 'en_US');
+        }
+    }
+    return INTEL_TYPE_AHEAD.onSubmitHps('Search', '/content/www/us/en', 'en_US');
+
+}
+
+
+    var globalSearch = globalSearch || {};
+    globalSearch = {
+        sharePointSearchPromote:true,
+        searchProvider: 'coveo',
+        baseSearchQuery: 'localecode:"en_US" NOT generic1:"false" ',
+        langRootPath: '/content/www/us/en',
+        headingTxt: 'Best Match',
+        locale: 'en_US',
+        typeAheadUrl: 'http://search.intel.com/SearchLookup/DataProvider.ashx',
+        bestMatchUrl: 'https://platform.cloud.coveo.com/rest/search/v2/querySuggest',
+        searchRealm: 'Default',
+        bestMatchQ1: 'NAR',
+        bestMatchQ2: 'en',
+        bestMatchQ11: 'sptitle,description,url,thumbnailurl,reimaginerootlevel',
+        progId: 'none',
+        useEMTTags: true,
+        defaultPage: 'search.html',
+        ighfToken: 'xx6e698e8b-65ad-446c-9030-666d0ec92d15',
+        searchHub: 'entepriseSearch',
+        newNavRedesign: true,
+        advancedSearchFlag :'true',
+        gtvLabels: {
+            suggested: "",
+            products: "Product Information",
+            support: "Support",
+            developers: "Developers",
+            drivers: "Drivers",
+            forums: "Forums",
+            specifications: "Specifications",
+            download: "",
+            searchesRelatedTo: "",
+            search: "Search Intel.com",
+            inLabel: "in",
+            searchSupport: "Search Intel® Support",
+            intelcom: "",
+            forLabel: "for",
+            allResults: "All Results",
+            show: "Show",
+            results: "Results"
+        },
+        mobileResults: "5",
+        laptopResults: "10",
+        EDCProgramIdentifier: "false"
+    };
+</script>
+                        </div>
+                        <!-- END MOBILE TOGGLE buttons -->
+                    </div>
+                </nav>
+            </header>
+        </div>
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+    
+
+
+
+
+
+<div id="secondary-nav-1" class="component secondary-nav" data-component="subnavigation-breadcrumb"
+     data-component-id="1">
+    
+</div>
+
+
+    
+    
+        
+            
+            <script type="application/ld+json">
+            {"itemListElement":[{"item":{"name":"Programmable Solutions","@id":""},"@type":"ListItem","position":1},{"item":{"name":"FPGAs & Programmable Devices","@id":"\/content\/www\/us\/en\/products\/programmable"},"@type":"ListItem","position":2}],"@type":"BreadcrumbList","name":"FPGAs & Programmable Devices","@context":"https:\/\/schema.org"}
+            </script>
+        
+    
+
+
+
+<script type="text/javascript">
+    intel = intel || {};
+    intel.utils = intel.utils || {};
+    intel.utils.breadcrumbSource = "";
+    intel.utils.isDefaultSecondaryNavNeeded = "false";
+    intel.utils.displayTitle = "Intel® FPGAs and Programmable Devices";
+</script>
+
+		
+        <script type="text/javascript">
+            var globalHeader = globalHeader || {};
+            globalHeader = {
+                currentPath: "/content/www/us/en/products/programmable",
+                lanloc: "/us/en",
+                lanLoc: "US/en",
+                helpformurl: "",
+                intelHeaderFooterVersion: "menu3",
+                megaMenuPath: "/content/data/globalelements/US/en/globalnav4",
+                globalBannerPath: "/content/data/globalelements/US/en/sitewide-banner-placeholder",
+                subMenuPath: "/content/data/globalelements/US/en/sub-navigation/psg-sub-nav",
+                isCHF:false,
+                secureRedirectURL: "",
+                excludeGlobalNav4: "false",
+                allowSubNavigationBreadcrumb: "true",
+                breadcrumbParentPagePath: "",
+                myintelHeaderLinkAgs: "RDC Basic View,RDC BASIC View,RDC Privileged Full,Intel Registration Center Access,IDZ-User,Basic Intel Registration Role,Intel Developer Zone User,Khoros Customer Community Access,PSG External Basic B2B Bundle,PSG External Customer Notification Subscriptions,PSG External Digital Power Configuration Download,PSG External Material Declaration Datasheet Download,PSG External Online Events Registration,PSG External Quartus Web Edition license request,PSG External MAX PLUS II Baseline License Request,PSG External Reference Design Request,PSG External IP Evaluation Request,PSG External IP Early Access Request,PSG External Reference Designs downloads,PSG External MAX PLUS II software downloads,PSG External Download Center,PSG External University Program,PSG External Training,PSG External Self Service Licensing Center,IRC User Access~RDC Privileged Full,Sales-PRM-External-Customers Employee-User~RDC Basic View,RDC BASIC View,RDC Privileged Full,IDZ-User,Basic Intel Registration Role,Intel Developer Zone User,Khoros Customer Community Access,PSG External Basic B2B Bundle,PSG External Customer Notification Subscriptions,PSG External Digital Power Configuration Download,PSG External Material Declaration Datasheet Download,PSG External Online Events Registration,PSG External Quartus Web Edition license request,PSG External MAX PLUS II Baseline License Request,PSG External Reference Design Request,PSG External IP Evaluation Request,PSG External IP Early Access Request,PSG External Reference Designs downloads,PSG External MAX PLUS II software downloads,PSG External Download Center,PSG External University Program,PSG External Training,PSG External Self Service Licensing Center,IRC User Access",
+            }
+        </script>
+    
+
+
+<script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/nav.min.js" defer></script>
+<script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/secondaryNav.min.js" defer></script>
+</div>
+
+    
+    
+
+
+<section data-scroll-track="false">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 pull-right persistent-cta-integration-globalNav" id="alertMsg">
+                <div id="alertSupport">
+                    <div class="browser_detect" id="browserdetectid" style="display:none;">
+                        <p>The browser version you are using is not recommended for this site.<br/>Please consider upgrading to the latest version of your browser by clicking one of the following links.</p>
+                        <div class="browser_types">
+                            <ul>
+                                
+                                    <li><a href="https://support.apple.com/downloads/safari">Safari</a></li>
+                                
+                                    <li><a href="https://support.google.com/chrome/answer/95346?hl=en">Chrome</a></li>
+                                
+                                    <li><a href="https://www.microsoft.com/en-us/edge">Edge</a></li>
+                                
+                                    <li><a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main id="primary-content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="navigationTemplate-1" class="component" role="main" data-component-id="1" data-component="navigationTemplate">
+    
+    <div class="promotionsBanner marketingbanner">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/upeMarketingBanner.min.css" type="text/css">
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+        
+    
+</div>
+
+    <div class="navigationpageoverview parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+    jQuery(document).ready(function () {
+        window.picturefill();
+    });
+    });
+    var intel = intel || {};
+    intel.globalMasthead = {
+        campaignPath: '',
+        allTeasers: ''
+    };
+</script>
+
+
+    
+        
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+            
+            
+                
+                    
+                
+                
+                
+            
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+            
+            
+                
+            
+            
+            
+                
+            
+            
+            
+            
+                
+            
+        
+    
+
+
+    
+    
+        
+        
+            
+            
+            
+            
+                
+                
+            
+        
+        
+        <div id="navigationpageoverview-1" role="region" aria-label="Navigation Page Overview"
+            class="overview-component nav-marquee-component component" data-component-id="1"
+            data-component="navigationpageoverview">
+            
+            <div
+                class="marquee-nav-1_0_0 intel-ws color-block blade theme-dark-default brand-classic-blue-shade1 solid  has-title">
+                <div class="title-tools-container">
+                    <div class="row overview-tools page-tools">
+                        
+
+
+
+
+
+
+
+
+
+
+<div class="component">
+    <div class="tool-links col-xs-12 col-sm-9"></div>
+</div>
+                    </div>
+                </div>
+                <div class="flex-block ">
+
+                    <div class="media-item">
+                        
+                            
+                            
+                                
+                                    
+                                    
+                                        <div class="marquee-background embed-responsive embed-responsive-16by9 force-background full-bleed-image color-block-darker image-insert  "
+                                            data-picture-full-bleed>
+                                            <span data-picture-sources>
+                                                
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.480.270.jpg"></span>
+        
+        
+        
+        
+        
+        
+        
+    
+
+    
+    
+    
+        
+        
+            <!--[if lte IE 9]>
+            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.1920.1080.jpg"></span>
+            <![endif]-->
+        
+        
+        
+        
+        
+        
+    
+
+    
+    
+    
+        
+        
+        
+            
+                
+                
+                    <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.864.486.jpg" data-media="(min-width: 480px)"></span>
+                
+            
+        
+        
+        
+        
+        
+    
+
+    
+    
+    
+        
+        
+        
+        
+            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.1072.603.jpg" data-media="(min-width: 768px)"></span>
+        
+        
+        
+        
+    
+
+    
+    
+    
+        
+        
+        
+        
+        
+            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.1280.720.jpg" data-media="(min-width: 992px)"></span>
+        
+        
+        
+    
+
+    
+    
+    
+        
+        
+        
+        
+        
+        
+            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.1648.927.jpg" data-media="(min-width: 1200px)"></span>
+        
+        
+    
+
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-263924573.jpeg.rendition.intel.web.1920.1080.jpg" data-media="(min-width: 1650px)"></span>
+        
+    
+
+                                            </span>
+                                        </div>
+                                    
+                                
+                            
+                        
+                    </div>
+
+                    
+                    
+                    <div class="marquee-layout layout-right  ">
+                        
+                            <div class="marquee-content color-block-lighter has-spark">
+                                
+                                
+                                
+                                
+                                <h1>Intel® FPGAs and Programmable Solutions</h1>
+                                
+                                    <p>Get the flexibility you need and accelerate your innovation with a broad portfolio of programmable logic products including FPGAs, CPLDs, Structured ASICs, acceleration platforms, software, and IP.</p>
+                                
+                                
+                                
+                                    
+                                
+                                
+                                <div class="cta-item">
+                                    
+                                    
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="jumplinksContainer"></div>
+        </div>
+      
+    
+</div>
+
+    
+    
+    <div class="storypar intelparsys">
+<div class="tabblade section">
+
+
+
+
+
+
+
+    
+    
+        
+            
+            
+            
+                
+                    
+                    
+                
+                
+                
+            
+
+            
+            
+            
+            <div class="tab-blade-component component" data-component="tab-Blade-1" data-component-id="1" id="tabBlade-1">
+                <div class="ipa-tabs-component tabs-overflow-component  blade solid theme-light-1  " >
+                    <div class="intel-ws theme-light-default ipa-tabs tabs-overflower swipable">
+                        <div title="previous item" class="nav-paddle nav-prev fa-angle-left"></div>
+                        <div title="next item" class="nav-paddle nav-next fa-angle-right"></div>
+                        <ul class="scrolling-wrapper" role="tablist">
+                            
+                            
+                                
+                                <li role="presentation" class="active">
+                                    <a href="#tab-blade-1-0" data-wap_ref="products" role="tab" aria-controls="tab-blade-1-0" data-toggle="tab">Products</a>
+                                </li>
+                                
+                            
+                                
+                                <li role="presentation" class="">
+                                    <a href="#tab-blade-1-1" data-wap_ref="applications" role="tab" aria-controls="tab-blade-1-1" data-toggle="tab">Applications</a>
+                                </li>
+                                
+                            
+                                
+                                <li role="presentation" class="">
+                                    <a href="#tab-blade-1-2" data-wap_ref="technology" role="tab" aria-controls="tab-blade-1-2" data-toggle="tab">Technology</a>
+                                </li>
+                                
+                            
+                                
+                                <li role="presentation" class="">
+                                    <a href="#tab-blade-1-3" data-wap_ref="support-" role="tab" aria-controls="tab-blade-1-3" data-toggle="tab">Support </a>
+                                </li>
+                                
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-content ws-comp-v-padding-btm">
+                        
+                         
+                            <div role="tabpanel" id="tab-blade-1-0" class="tab-pane ipa-tab-pane active">
+                                <div class="innerParsys-1-0 intelparsys">
+<div class="promotions section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        <div id="promotions-1" class="component promotions promotions-blade intel-brand-ux has-rte-buttons " data-component="promotions"
+             data-component-id="1">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        
+    
+    
+
+
+
+
+    
+    
+    
+        <section  class="blade solid white theme-light-default intel-ws link-default blade-itemized blade-itemized-4  upe-promotion" data-showmore="" data-showmore-xs="2" data-showmore-sm="4" data-showmore-md="4" data-showmore-xl="6" data-header-peek="false">
+    
+    
+
+
+<div class="container" role="button" aria-label=''>
+    
+        <header class="row">
+            
+                
+                
+                    
+                        <div class="col-xs-12  col-sm-9 col-md-9 col-xl-9 ">
+                            
+                            
+                        </div>
+                        
+                    
+                
+            
+        </header>
+    
+
+
+    <div class="row promo-blade-container  blade-items itemized-listing">
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/details/fpga.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="FPGA family badge" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/psg-fpgas-and-agilex-badges-framed.png.rendition.intel.web.576.324.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/psg-fpgas-and-agilex-badges-framed.png.rendition.intel.web.416.234.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/psg-fpgas-and-agilex-badges-framed.png.rendition.intel.web.368.207.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/psg-fpgas-and-agilex-badges-framed.png.rendition.intel.web.320.180.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/psg-fpgas-and-agilex-badges-framed.png.rendition.intel.web.576.324.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/psg-fpgas-and-agilex-badges-framed.png.rendition.intel.web.720.405.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-1" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/details/fpga.html" class="blade-item-link">FPGAs, SoC FPGAs, CPLDs</a>
+                
+                
+            
+        </h3>
+    
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/details/fpga/platforms.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Intel smartnic and ipu image" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/smartmics-ipus-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/smartmics-ipus-graphic.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/smartmics-ipus-graphic.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/smartmics-ipus-graphic.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/smartmics-ipus-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/smartmics-ipus-graphic.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-2" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/details/fpga/platforms.html" class="blade-item-link">FPGA Acceleration Boards and Platforms</a>
+                
+                
+            
+        </h3>
+    
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/details/fpga/development-tools.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Development tools image" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/fpga-development-tools-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/fpga-development-tools-graphic.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/fpga-development-tools-graphic.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/fpga-development-tools-graphic.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/fpga-development-tools-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/fpga-development-tools-graphic.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-3" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/details/fpga/development-tools.html" class="blade-item-link">FPGA Design Software, Tools, Intel® Quartus® Prime Software</a>
+                
+                
+            
+        </h3>
+    
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/details/easic.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="eASIC badge" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/intel-framed-easic-badge.png.rendition.intel.web.576.324.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/intel-framed-easic-badge.png.rendition.intel.web.416.234.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/intel-framed-easic-badge.png.rendition.intel.web.368.207.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/intel-framed-easic-badge.png.rendition.intel.web.320.180.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/intel-framed-easic-badge.png.rendition.intel.web.576.324.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/intel-framed-easic-badge.png.rendition.intel.web.720.405.png"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-4" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/details/easic.html" class="blade-item-link">Intel® eASIC</a>
+                
+                
+            
+        </h3>
+    
+    
+    
+</div>
+                    
+            </div>
+        
+    </div>
+</div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+
+    
+        <div class="container show-more-container upe ">
+            <div class="row">
+                <div class="show-more col-xs-12 col-sm-6 col-sm-offset-3">
+                    <div class="fading-line"></div>
+                    <span class="link-wrap">
+				<a class="show-more-items" href="#">Show more</a>
+				<a class="show-less-items" href="#">Show less</a>
+				<span class="divider"></span>
+			</span>
+
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+
+    
+
+
+
+    </section>
+
+        </div>
+        
+
+    
+</div>
+<div class="introtext section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+            
+                
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                    
+                    
+                    
+                
+                
+            
+            
+        
+        
+        
+            <div  class="component intel-brand-ux" data-component="introText" data-component-id="1">
+                <div class="blade intro-text-component intro-text-upe intel-ws solid full-width brand-lightest-gray-2 theme-light-default link-default  text-align-center big-intro more-less-component ">
+                    <div class="container">
+                        <div class="row">
+                            <div class="text-container col-xs-12 col-md-10 col-xl-8">
+                                
+                                    
+                                        
+                                        
+                                            <h2 class="headline-font-one-bold">Download FPGA Product Catalog</h2>
+                                        
+                                    
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <div class=container>
+                            <div class="content text-align-center">
+                                <p class=cta-item>
+                                    
+                                        
+                                    
+                                    
+                                    <a class="btn btn-arrow btn-primary intel-cta btn-no-shadow" href="https://cdrdv2.intel.com/v1/dl/getContent/730595" onkeypress="" onclick="olosubscribe()">Download</a>
+                                </p>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        
+    
+
+</div>
+<div class="promotions section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        <div id="promotions-2" class="component promotions promotions-blade intel-brand-ux has-rte-buttons " data-component="promotions"
+             data-component-id="2">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+    
+
+
+
+
+    
+    
+    
+        <section  class="blade solid brand-blue-steel-shade1 theme-dark-default  intel-ws link-default blade-itemized blade-itemized-4  upe-promotion" data-showmore="" data-showmore-xs="2" data-showmore-sm="4" data-showmore-md="4" data-showmore-xl="6" data-header-peek="false">
+    
+    
+
+
+<div class="container" role="button" aria-label=''>
+    
+        <header class="row">
+            
+                
+                
+                    
+                        <div class="col-xs-12  col-sm-12 col-xl-12  center-text">
+                            
+                                <h2>Featured Stories</h2>
+                            
+                            
+                        </div>
+                        
+                    
+                
+            
+        </header>
+    
+
+
+    <div class="row promo-blade-container tile-centered-align blade-items itemized-listing">
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/docs/programmable/fpga-leadership.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="PSG innovation campaign collage" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-09/leading-edge-psg-campaign-collage-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-09/leading-edge-psg-campaign-collage-graphic.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-09/leading-edge-psg-campaign-collage-graphic.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-09/leading-edge-psg-campaign-collage-graphic.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-09/leading-edge-psg-campaign-collage-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-09/leading-edge-psg-campaign-collage-graphic.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-5" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/docs/programmable/fpga-leadership.html" class="blade-item-link">New Intel® FPGA Products and Technologies</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Announcing leading-edge performance, capability, and power-efficiency for the data-centric world. Find out how we deliver leadership products, best-in-class developer experiences, and a resilient supply chain through Intel® manufacturing expertise.</p></p>
+    
+    
+        
+            
+            
+        
+        
+        
+            
+                
+            
+            
+
+        
+        
+        
+            <p class="item-cta "><a id="promo-main-cta-5" aria-labelledby="promo-main-heading-5 promo-main-cta-5" href="/content/www/us/en/products/docs/programmable/fpga-leadership.html" class="intel-cta btn btn-primary no-arrow btn-no-shadow cta-blue-steel-shade1">Learn more</a>
+            </p>
+        
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Three persons interacting with control panel" data-picture="">
+                            <span data-src="/content/dam/www/public/us/en/images/programmable/rwd/quartus-rwd.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/public/us/en/images/programmable/rwd/quartus-rwd.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/public/us/en/images/programmable/rwd/quartus-rwd.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/public/us/en/images/programmable/rwd/quartus-rwd.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/public/us/en/images/programmable/rwd/quartus-rwd.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/public/us/en/images/programmable/rwd/quartus-rwd.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-6" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html" class="blade-item-link">Intel® Quartus® Prime Pro Software Suite v22.2 Released</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>The Intel® Quartus® Prime Pro Edition Software v22.2 is an intuitive design environment that will help you meet your power and performance requirements and reduce your overall development effort. The latest version (v22.2) has just been released.</p></p>
+    
+    
+        
+            
+            
+        
+        
+        
+            
+                
+            
+            
+
+        
+        
+        
+            <p class="item-cta "><a id="promo-main-cta-6" aria-labelledby="promo-main-heading-6 promo-main-cta-6" href="/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html" class="intel-cta btn btn-primary no-arrow btn-no-shadow cta-blue-steel-shade1">Learn more</a>
+            </p>
+        
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/docs/programmable/build-efficient-5g-radios-with-agilex-fpga.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Telecommunication tower with 5G cellular network antenna on city background" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-346855339.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-346855339.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-346855339.jpeg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-346855339.jpeg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-346855339.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-346855339.jpeg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-7" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/docs/programmable/build-efficient-5g-radios-with-agilex-fpga.html" class="blade-item-link">Build More Cost-Effective and More Efficient 5G Radios with Intel® Agilex™ FPGAs</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Learn how Intel® Agilex™ FPGAs ease development of 5G applications by tackling constantly evolving requirements with flexible, highest performance-per-watt fabric, while providing a path to production and scale with eASIC and full ASIC implementations.<br> </p></p>
+    
+    
+        
+            
+            
+        
+        
+        
+            
+                
+            
+            
+
+        
+        
+        
+            <p class="item-cta "><a id="promo-main-cta-7" aria-labelledby="promo-main-heading-7 promo-main-cta-7" href="/content/www/us/en/products/docs/programmable/build-efficient-5g-radios-with-agilex-fpga.html" class="intel-cta btn btn-primary no-arrow btn-no-shadow cta-blue-steel-shade1">Read the white paper</a>
+            </p>
+        
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                    
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-lg-3 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/products/details/fpga/platforms/smartnic/n6000-pl-platform.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Intel Agilex and N6000 promotion graphic" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/agilex-fpga-smartnic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/agilex-fpga-smartnic.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/agilex-fpga-smartnic.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/agilex-fpga-smartnic.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/agilex-fpga-smartnic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/agilex-fpga-smartnic.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-8" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/products/details/fpga/platforms/smartnic/n6000-pl-platform.html" class="blade-item-link">Intel® Agilex™ FPGA Based SmartNIC Solutions Announced at MWC Barcelona</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Intel partners, Silicom Ltd. and Wistron NeWeb Corporation, introduce SmartNICs products based on the Intel® FPGA SmartNIC N6000-PL Platform equipped with industry-leading&nbsp;Intel® Agilex™ FPGAs for vRAN, NFVi and VNF acceleration applications.</p></p>
+    
+    
+        
+            
+            
+        
+        
+        
+            
+                
+            
+            
+
+        
+        
+        
+            <p class="item-cta "><a id="promo-main-cta-8" aria-labelledby="promo-main-heading-8 promo-main-cta-8" href="/content/www/us/en/products/details/fpga/platforms/smartnic/n6000-pl-platform.html" class="intel-cta btn btn-primary no-arrow btn-no-shadow cta-blue-steel-shade1">Learn more</a>
+            </p>
+        
+    
+</div>
+                    
+            </div>
+        
+    </div>
+</div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+
+    
+        <div class="container show-more-container upe ">
+            <div class="row">
+                <div class="show-more col-xs-12 col-sm-6 col-sm-offset-3">
+                    <div class="fading-line"></div>
+                    <span class="link-wrap">
+				<a class="show-more-items" href="#">Show more</a>
+				<a class="show-less-items" href="#">Show less</a>
+				<span class="divider"></span>
+			</span>
+
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+
+    
+
+
+
+    </section>
+
+        </div>
+        
+
+    
+</div>
+</div>
+
+                            </div>
+                            
+                         
+                            <div role="tabpanel" id="tab-blade-1-1" class="tab-pane ipa-tab-pane ">
+                                <div class="innerParsys-1-1 intelparsys">
+<div class="promotions section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        <div id="promotions-3" class="component promotions promotions-blade intel-brand-ux has-rte-buttons " data-component="promotions"
+             data-component-id="3">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        
+    
+    
+
+
+
+
+    
+    
+    
+        <section  class="blade solid white theme-light-default intel-ws link-default blade-itemized blade-itemized-3  upe-promotion" data-showmore="" data-showmore-xs="2" data-showmore-sm="3" data-showmore-md="4" data-showmore-xl="6" data-header-peek="false">
+    
+    
+
+
+<div class="container" role="button" aria-label=''>
+    
+        <header class="row">
+            
+                
+                
+                    
+                        <div class="col-xs-12  col-sm-12 col-xl-12  center-text">
+                            
+                            
+                        </div>
+                        
+                    
+                
+            
+        </header>
+    
+
+
+    <div class="row promo-blade-container tile-centered-align blade-items itemized-listing">
+        
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-4 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                    
+                                        
+                                        
+                                 <span class="image-wh lazy-load-img" data-alt="Data center with mulitple rows of server racks" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-267083530.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-267083530.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-267083530.jpeg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-267083530.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-267083530.jpeg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1920px)"></span>
+                        </span>
+                                        
+                                    
+
+                                
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-9" class="blade-item-heading">
+            
+                
+                
+                    Cloud & Enterprise
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p><a href="/content/www/us/en/artificial-intelligence/programmable/overview.html">AI&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/products/docs/storage/programmable/applications/data-analytics.html">Data Analytics&nbsp;›</a><br> </p> 
+<p><a href="/content/www/us/en/products/docs/storage/programmable/applications/computer.html">Financial Workloads and High Performance Computing&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/storage/products/programmable/applications/media-processing.html">Media Processing ›</a><br> </p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-4 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                    
+                                        
+                                        
+                                 <span class="image-wh lazy-load-img" data-alt="Telecommunication tower with 5g cellular network antenna on city background" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-274430678.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-274430678.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-274430678.jpeg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-274430678.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-274430678.jpeg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1920px)"></span>
+                        </span>
+                                        
+                                    
+
+                                
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-10" class="blade-item-heading">
+            
+                
+                
+                    5G Network Transformation
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p><a href="/content/www/us/en/wireline/products/programmable/overview.html">Wireline&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/communications/products/programmable/overview.html">Wireless&nbsp;›</a></p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-4 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                    
+                                        
+                                        
+                                 <span class="image-wh lazy-load-img" data-alt="Industrial robot arm used in factory" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/gettyimages-932628690-flipped.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/gettyimages-932628690-flipped.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/gettyimages-932628690-flipped.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/gettyimages-932628690-flipped.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-05/gettyimages-932628690-flipped.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1920px)"></span>
+                        </span>
+                                        
+                                    
+
+                                
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-11" class="blade-item-heading">
+            
+                
+                
+                    Edge & Embedded
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p><a href="/content/www/us/en/automotive/products/programmable/overview.html">Automotive&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/smart-home/products/programmable/overview.html">Consumer&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/design/test-and-validate/programmable/emulation-and-prototyping.html">Emulation and Prototyping ›</a><br> </p> 
+<p><a href="/content/www/us/en/industrial-automation/programmable/applications/overview.html">Industrial&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/healthcare-it/products/programmable/overview.html">Medical&nbsp;›</a></p> 
+<p><a href="/content/www/us/en/government/products/programmable/overview.html">Military, Aerospace and Government ›</a></p> 
+<p><a href="/content/www/us/en/design/test-and-validate/programmable/overview.html">Test and Measurement ›</a><br> </p> 
+<p><a href="/content/www/us/en/broadcast/products/programmable/overview.html">Video &amp; Vision ›</a></p> 
+<p>&nbsp;</p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+    </div>
+</div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+
+    
+        <div class="container show-more-container upe ">
+            <div class="row">
+                <div class="show-more col-xs-12 col-sm-6 col-sm-offset-3">
+                    <div class="fading-line"></div>
+                    <span class="link-wrap">
+				<a class="show-more-items" href="#">Show more</a>
+				<a class="show-less-items" href="#">Show less</a>
+				<span class="divider"></span>
+			</span>
+
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+
+    
+
+
+
+    </section>
+
+        </div>
+        
+
+    
+</div>
+</div>
+
+                            </div>
+                            
+                         
+                            <div role="tabpanel" id="tab-blade-1-2" class="tab-pane ipa-tab-pane ">
+                                <div class="innerParsys-1-2 intelparsys">
+<div class="promotions section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        <div id="promotions-4" class="component promotions promotions-blade intel-brand-ux has-rte-buttons " data-component="promotions"
+             data-component-id="4">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        
+    
+    
+
+
+
+    
+
+
+    
+    
+    
+    
+        
+            
+                
+                
+                
+                    <section  class="blade solid white theme-light-default intel-ws link-default blade-itemized blade-itemized-8 upe-promotion" data-showmore="" data-showmore-xs="2" data-showmore-sm="2" data-showmore-md="3" data-showmore-lg="8" data-showmore-xl="8" data-header-peek="false">
+                
+            
+        
+    
+
+
+<div class="container" role="button" aria-label=''>
+    
+        <header class="row">
+            
+                
+                
+                    
+                        <div class="col-xs-12  col-sm-12 col-xl-12  center-text">
+                            
+                            
+                        </div>
+                        
+                    
+                
+            
+        </header>
+    
+
+
+    <div class="row promo-blade-container tile-centered-align blade-items itemized-listing">
+        
+            
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/architecture-and-technology/programmable/analog-rf-fpga.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Image of direct rf fpga fabrix" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/direct-rf-fpga-chip-with-background.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/direct-rf-fpga-chip-with-background.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/direct-rf-fpga-chip-with-background.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/direct-rf-fpga-chip-with-background.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/direct-rf-fpga-chip-with-background.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/direct-rf-fpga-chip-with-background.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-12" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/architecture-and-technology/programmable/analog-rf-fpga.html" class="blade-item-link">Integrated ADC/DAC</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Intel FPGAs with integrated high-performance data converters help customers obtain wide instantaneous bandwidth and direct RF capabilities while increasing performance, decreasing power, and reducing product size.</p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/architecture-and-technology/programmable/digital-signal-processing/overview.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Image of multi color vertical lines" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-183877236.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-183877236.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-183877236.jpeg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-183877236.jpeg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-183877236.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-183877236.jpeg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-13" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/architecture-and-technology/programmable/digital-signal-processing/overview.html" class="blade-item-link">Digital Signal Processing</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Intel FPGAs feature variable-precision DSP blocks with support for floating-point operations, enabling high performance and high-efficiency implementation of a wide range of signal processing functions.</p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/architecture-and-technology/programmable/memory-ip-solutions.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Intel optane memory card" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/optane-pmem-200-series-motherboard-1-16x9.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/optane-pmem-200-series-motherboard-1-16x9.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/optane-pmem-200-series-motherboard-1-16x9.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/optane-pmem-200-series-motherboard-1-16x9.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/optane-pmem-200-series-motherboard-1-16x9.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/optane-pmem-200-series-motherboard-1-16x9.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-14" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/architecture-and-technology/programmable/memory-ip-solutions.html" class="blade-item-link">External Memory Interfaces</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Address your memory bandwidth needs with high-performance and high-efficiency interfaces to external memories such as DDR4, DDR5, and Intel® Optane™ Persistent Memory.</p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/architecture-and-technology/programmable/heterogeneous-integration/overview.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Intel stratix 10 hyperflex image" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/stratix-10-heterogeneous-integration-chip-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/stratix-10-heterogeneous-integration-chip-graphic.jpg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/stratix-10-heterogeneous-integration-chip-graphic.jpg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/stratix-10-heterogeneous-integration-chip-graphic.jpg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/stratix-10-heterogeneous-integration-chip-graphic.jpg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/2022-08/stratix-10-heterogeneous-integration-chip-graphic.jpg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-15" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/architecture-and-technology/programmable/heterogeneous-integration/overview.html" class="blade-item-link">Chiplet-Based Heterogenous Integration</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Intel’s chiplet-based approach to heterogenous integration increases the rate of FPGA innovation and enables new degrees of product customization.</p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+            
+            
+                
+                
+                
+                
+                
+                    
+                
+                
+            
+
+
+            <div class="blade-item  col-xs-12 col-ms-6 col-sm-6 col-md-4 promotions-item ">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+<div>
+    
+        
+            
+            
+                <figure class="blade-image" aria-hidden="true">
+                    
+                        
+                            
+                            
+                                
+                                
+                                
+                                
+                                    
+                                        
+                                            <a href="/content/www/us/en/architecture-and-technology/programmable/transceiver/overview.html" class="intel-ws-ignore">
+                        <span class="image-wh lazy-load-img" data-alt="Hub server room" data-picture="">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-264612989.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-264612989.jpeg.rendition.intel.web.416.234.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 480px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-264612989.jpeg.rendition.intel.web.368.207.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 768px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-264612989.jpeg.rendition.intel.web.320.180.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 992px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-264612989.jpeg.rendition.intel.web.576.324.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1200px)"></span>
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/adobestock-264612989.jpeg.rendition.intel.web.720.405.jpg"
+                                  data-onerror="/etc.clientlibs/settings/wcm/designs/intel/us/en/images/resources/white.png" data-media="(min-width: 1650px)"></span>
+                        </span>
+                                            </a>
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                        
+                    
+                </figure>
+            
+        
+    
+</div>
+
+<div class="blade-item-content  ">
+    
+        <h3 id="promo-main-heading-16" class="blade-item-heading">
+            
+                
+                    <a href="/content/www/us/en/architecture-and-technology/programmable/transceiver/overview.html" class="blade-item-link">Transceivers</a>
+                
+                
+            
+        </h3>
+    
+    
+        
+        
+        
+        
+        <p ><p>Intel helps address your next-generation bandwidth requirements with industry-leading transceiver I/O technology.</p></p>
+    
+    
+</div>
+                    
+            </div>
+        
+    </div>
+</div>
+
+
+    
+        
+        
+
+
+
+
+
+
+
+
+    
+        <div class="container show-more-container upe ">
+            <div class="row">
+                <div class="show-more col-xs-12 col-sm-6 col-sm-offset-3">
+                    <div class="fading-line"></div>
+                    <span class="link-wrap">
+				<a class="show-more-items" href="#">Show more</a>
+				<a class="show-less-items" href="#">Show less</a>
+				<span class="divider"></span>
+			</span>
+
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+
+    
+
+
+
+    </section>
+
+        </div>
+        
+
+    
+</div>
+</div>
+
+                            </div>
+                            
+                         
+                            <div role="tabpanel" id="tab-blade-1-3" class="tab-pane ipa-tab-pane ">
+                                <div class="innerParsys-1-3 intelparsys">
+<div class="accent section">
+
+
+
+
+
+
+
+
+
+<div class="intel-brand-ux" data-component="accentBlade">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+        
+        
+        
+        
+            
+            
+        
+    
+
+    
+    
+    
+    
+        
+        
+    
+
+    
+    
+
+    
+    
+        
+    
+
+    
+    
+
+    <div id="accent-1" class="component" data-component="accent" data-component-id="1">
+    <section  class="blade blade-featured-content  solid white theme-light-2" role="region" aria-label='Resources'>
+        <div class="container">
+            <header class="row text-left">
+                <div class="col-xs-12">
+                    <h2>Resources</h2>
+                    
+                </div>
+                
+            </header>
+            <div class="row">
+                
+                    
+                    
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="blade-item col-xs-12 col-ms-6 col-sm-6 col-lg-4 col-xl-3">
+    
+        
+            
+            
+        
+        
+    
+    <div>
+    <figure class="blade-image">
+        
+            
+                
+                    
+                        <span class="image-wh lazy-load-img" data-picture="" data-alt="Icon of a document" data-aria-hidden="true">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/documentation-icon.png.rendition.intel.web.128.96.png" data-media="(min-width: 768px)"></span>
+                        </span>
+                    
+                    
+                
+            
+            
+        
+    </figure>
+    </div>
+    <div class="blade-item-content">
+        <h3><a href="/content/www/us/en/support/programmable/support-resources/overview.html" class="blade-item-link">
+            Support Resources</a>
+        </h3>
+
+        <p>Find FPGA support resources, self-help information, step-by-step guidance, knowledge-base articles, and more.</p>
+    </div>
+</div>
+                    
+                    
+                    
+                
+                    
+                    
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="blade-item col-xs-12 col-ms-6 col-sm-6 col-lg-4 col-xl-3">
+    
+        
+            
+            
+        
+        
+    
+    <div>
+    <figure class="blade-image">
+        
+            
+                
+                    
+                        <span class="image-wh lazy-load-img" data-picture="" data-alt="Icon of a document" data-aria-hidden="true">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/documentation-icon.png.rendition.intel.web.128.96.png" data-media="(min-width: 768px)"></span>
+                        </span>
+                    
+                    
+                
+            
+            
+        
+    </figure>
+    </div>
+    <div class="blade-item-content">
+        <h3><a href="/content/www/us/en/support/programmable/support-resources/fpga-documentation-index.html" class="blade-item-link">
+            Documentation</a>
+        </h3>
+
+        <p>Access FPGA documentation index collection to find user guides, datasheets, release notes, and more.</p>
+    </div>
+</div>
+                    
+                        <div class="clearfix visible-xs visible-sm visible-md"></div>
+                    
+                    
+                    
+                
+                    
+                    
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="blade-item col-xs-12 col-ms-6 col-sm-6 col-lg-4 col-xl-3">
+    
+        
+            
+            
+        
+        
+    
+    <div>
+    <figure class="blade-image">
+        
+            
+                
+                    
+                        <span class="image-wh lazy-load-img" data-picture="" data-alt="Icon of a computer screen with a graduation cap" data-aria-hidden="true">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/training-icon.png.rendition.intel.web.128.96.png" data-media="(min-width: 768px)"></span>
+                        </span>
+                    
+                    
+                
+            
+            
+        
+    </figure>
+    </div>
+    <div class="blade-item-content">
+        <h3><a href="/content/www/us/en/support/programmable/support-resources/fpga-training/overview.html" class="blade-item-link">
+            Training</a>
+        </h3>
+
+        <p>Deepen and sharpen your FPGA design skills with Intel FPGA technical training.</p>
+    </div>
+</div>
+                    
+                    
+                        <div class="clearfix visible-lg"></div>
+                    
+                    
+                
+                    
+                    
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+<div class="blade-item col-xs-12 col-ms-6 col-sm-6 col-lg-4 col-xl-3">
+    
+        
+            
+            
+        
+        
+    
+    <div>
+    <figure class="blade-image">
+        
+            
+                
+                    
+                        <span class="image-wh lazy-load-img" data-picture="" data-alt="Icon of a computer screen with a graduation cap" data-aria-hidden="true">
+                            <span data-src="/content/dam/www/central-libraries/us/en/images/training-icon.png.rendition.intel.web.128.96.png" data-media="(min-width: 768px)"></span>
+                        </span>
+                    
+                    
+                
+            
+            
+        
+    </figure>
+    </div>
+    <div class="blade-item-content">
+        <h3><a href="/content/www/us/en/products/details/fpga/resources/overview.html" class="blade-item-link">
+            New to FPGA</a>
+        </h3>
+
+        <p>Learn what an FPGA is and explore resources to get started with your own design.</p>
+    </div>
+</div>
+                    
+                        <div class="clearfix visible-xs visible-sm visible-md"></div>
+                    
+                    
+                    
+                        <div class="clearfix visible-xl"></div>
+                    
+                
+            </div>
+            
+        </div>
+    </section>
+    </div>
+
+
+
+</div>
+
+
+</div>
+</div>
+
+                            </div>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        
+    
+
+</div>
+</div>
+
+    
+    
+    
+    <div class="bladepar intelparsys">
+</div>
+
+    <div class="disclaimer parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+    
+
+<div class="translationDisclaimer parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+</div>
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+<div class="jumplinks jumplink rwd-jumplinks">
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+<div class="nav-overflower spynav nav-spy component" data-component="jumplink" data-component-id="1">
+    <div class="wrap-1  nav-affixer off-screen">
+        <div class="wrap-2 overflower">
+            <ul class="nav overflower-inner">
+                
+            </ul>
+        </div>
+    </div>
+    <div class="paddlesJumplink">
+        <button class="left-paddle-jumplink paddle">
+            <span aria-hidden="true" class="fa fa-angle-left"></span>
+        </button>
+        <button class="right-paddle-jumplink paddle">
+            <span aria-hidden="true" class="fa fa-angle-right"></span>
+        </button>
+    </div>
+</div>
+
+</div>
+    <div data-showmore-xs="4" data-showmore="" class="mobile-page-tools">
+        <div class="container">
+            <div class="row page-tools">
+                
+
+
+
+
+
+
+
+
+
+
+<div class="component">
+    <div class="tool-links col-xs-12 col-sm-12"></div>
+</div>
+            </div>
+        </div>
+    </div>
+    <div class="contactUs contact">
+
+
+
+
+
+
+
+
+
+
+
+<link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/contact-us.min.css" as="style">
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+    <div class="helpModule getHelpComponent parbase">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+</div>
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="global blade solid brand-lighter-gray theme-light-2 component" data-component-id="1"
+        data-component="footer" role="contentinfo" data-wap_type="wa_skip_track" id="skip-footer">
+    <div class="container">
+        <div class="content-footer">
+            <div class="content">
+                
+                    
+                        
+                            <ul class="footer-links">
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/company-overview/company-overview.html">Company Overview</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/support/contact-intel.html">Contact Intel</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/newsroom/home.html">Newsroom</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.intc.com/">Investors</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/jobs/jobs-at-intel.html">Careers</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/corporate-responsibility/corporate-responsibility.html">Corporate Responsibility</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/diversity/diversity-at-intel.html">Diversity & Inclusion</a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/content/www/us/en/company-overview/public-policy.html">Public Policy</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                        
+                            <ul class="footer-links social">
+                                
+                                    <li>
+                                        <a href="https://www.facebook.com/Intel" target="" aria-label="Intel on Facebook" data-wap="{&quot;linktype&quot;:&quot;footersocial&quot;}">
+                                            <i aria-hidden="true" class="fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://twitter.com/intel" target="" aria-label="Intel on Twitter" data-wap="{&quot;linktype&quot;:&quot;footersocial&quot;}">
+                                            <i aria-hidden="true" class="fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.linkedin.com/company/intel-corporation" target="" aria-label="Intel on LinkedIn" data-wap="{&quot;linktype&quot;:&quot;footersocial&quot;}">
+                                            <i aria-hidden="true" class="fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.youtube.com/user/channelintel?sub_confirmation=1" target="" aria-label="Intel on YouTube" data-wap="{&quot;linktype&quot;:&quot;footersocial&quot;}">
+                                            <i aria-hidden="true" class="fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="https://www.instagram.com/intel/" target="" aria-label="Intel on Instagram" data-wap="{&quot;linktype&quot;:&quot;footersocial&quot;}">
+                                            <i aria-hidden="true" class="fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        
+                        
+                    
+                
+                    
+                        
+                        
+                        
+                            <ul class="footer-links secondary-links" id="footerSecondaryLinks">
+                                
+                                    <li>
+                                        
+                                            
+                                            
+                                                <small>© Intel Corporation</small>
+                                            
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                        <a href="/content/www/us/en/legal/terms-of-use.html">
+                                                            <small>Terms of Use</small>
+                                                        </a>
+                                                    
+                                                
+                                            
+                                            
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                        <a href="/content/www/us/en/legal/trademarks.html">
+                                                            <small>*Trademarks</small>
+                                                        </a>
+                                                    
+                                                
+                                            
+                                            
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            
+                                                
+                                                    
+                                                        <a href="/content/www/us/en/privacy/intel-cookie-notice.html" data-cookie-notice="true">
+                                                            <small>Cookies</small>
+                                                        </a>
+                                                    
+                                                    
+                                                
+                                            
+                                            
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                        <a href="/content/www/us/en/privacy/intel-privacy-notice.html">
+                                                            <small>Privacy</small>
+                                                        </a>
+                                                    
+                                                
+                                            
+                                            
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                        <a href="/content/www/us/en/corporate-responsibility/statement-combating-modern-slavery.html">
+                                                            <small>Supply Chain Transparency </small>
+                                                        </a>
+                                                    
+                                                
+                                            
+                                            
+                                        
+                                    </li>
+                                
+                                    <li>
+                                        
+                                            
+                                                
+                                                    
+                                                    
+                                                        <a href="/content/www/us/en/siteindex.html">
+                                                            <small>Site Map</small>
+                                                        </a>
+                                                    
+                                                
+                                            
+                                            
+                                        
+                                    </li>
+                                
+                            </ul>
+                        
+                    
+                
+                
+                    <div class="footer-disclaimer">
+                            <p>Intel technologies may require enabled hardware, software or service activation. // No product or component can be absolutely secure. // Your costs and results may vary. // Performance varies by use, configuration and other factors. // See our complete legal <u><a href="https://edc.intel.com/content/www/us/en/products/performance/benchmarks/overview/#GUID-26B0C71C-25E9-477D-9007-52FCA56EE18C">Notices and Disclaimers</a></u>. // Intel is committed to respecting human rights and avoiding complicity in human rights abuses. See Intel’s <a href="https://www.intel.com/content/www/us/en/policy/policy-human-rights.html"><u>Global Human Rights Principles</u></a>. Intel’s products and software are intended only to be used in applications that do not cause or contribute to a violation of an internationally recognized human right.</p>
+
+                    </div>
+                
+            </div>
+            <div class="logo-container">
+                <a href="/content/www/us/en/homepage.html" class="footer-logo-rebrand" aria-label="Intel Footer Logo" title="Intel Footer Logo">
+                    <img src="/content/dam/logos/intel-footer-logo.svg" height="300" width="118" class="footer-logo-rebrand" alt="Intel Footer Logo" title="Intel Footer Logo">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <textarea id="defers" title="" style="display:none;">
+    
+        <script>var isTargetEnabled =false;</script>
+        
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+        
+        
+        
+    
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+    
+    
+    
+    
+        
+    
+
+
+    
+    
+        
+    
+
+<script type="text/javascript">
+    var cq_tms = {
+        wa_rmarketingproducts: "rmarketingproducts:programmablesolutions/intelstratixfpgasandsocs",
+        wa_emtcontenttype: "emtcontenttype:donotuse/webpage/landingpage",
+        
+        wa_industry_type: "",
+        wa_partner_prog: "",
+        wa_subject: "",
+        wa_biz_size: "",
+        wa_emt_org: "",
+        wa_emt_intel: "",
+        wa_partner_type: "",
+        wa_programidentifier: "none",
+        wa_location: "us",
+        wa_language: "en",
+        wa_english_title: "Intel® Programmable Solutions",
+        wa_content_type: "landingpage",
+        wa_intel_platform: "",
+        wa_applications: "",
+        wa_local: "en_US",
+        wa_intel_technology: "",
+        wa_system_type: "",
+        wa_product_name: "",
+        wa_audience: "emtaudience:business/btssbusinesstechnologysolutionspecialist/developer/fpgaengineer",
+        wa_life_cycle: "",
+        wa_cq_url: "/content/www/us/en/products/programmable.html",
+        wa_page_type_micro: "mf-navigation",
+        wa_env: "prd",
+        wa_cq_pub_env: "publish",
+        wa_transl_status: "0",
+        wa_product_id: "98837",
+        wa_software: "",
+        wa_reference_design: "",
+        wa_codename: "",
+        wa_created_date: "1530545172438",
+        wa_modified_date: "1664310380617",
+        wa_off_time: "1695853320000",
+        wa_ownedby: "",
+        wa_managedby: "emtorganizationalstructure:smgsalesandmarketinggroup/smgogmsmgoutboundglobalmarketing/smgcxssmgcustomerexperienceandscalegroup/smgcxsproductexperience",
+        wa_idz_nid : "",
+        wa_event_type: "",
+        wa_idz_custom_tags: "",
+        wa_programming_language: "",
+        wa_skill_level: "",
+        wa_solution: "",
+        wa_product_formFactor: "",
+        wa_operating_system: "",
+        wa_marketing_products: "rmarketingproducts:programmablesolutions/intelstratixfpgasandsocs",
+        wa_ssg_third_party_prod_sys_sol: "",
+        wa_upeNamespace: "",
+        wa_doc_id:"",
+        wa_doc_version:"",
+        wa_doc_publishdate:"",
+        
+        wa_secondary_content_type: ""
+        
+        
+        
+    };
+
+    
+    
+    
+    
+    cq_tms.wa_tms_sync_load = "deferred";
+    
+    
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var chatContextObj = {};
+    chatContextObj["locale"] = 'en-US';
+    chatContextObj["app"] = 'Sales';
+    chatContextObj["supportProductMap"] = 'NA';
+</script>
+<script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/detect-idsa.min.js" defer></script>
+
+
+
+
+    <script type="text/javascript" src="/content/dam/www/global/wap/tms.sync.js" async></script>
+
+
+        
+    
+    <link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/commons-page.min.css" type="text/css"><script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/commons-page.min.js" defer></script>
+
+
+    
+        
+        
+            <link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/ipaTabs.min.css" as="style"><link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/ipaTabs.min.css" type="text/css"><script src="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/ipaTabs.min.js"></script>
+        
+    
+
+    
+        
+        
+            <link rel="preload" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/contact-us.min.css" as="style"><link rel="stylesheet" href="/etc.clientlibs/settings/wcm/designs/ver/220921/intel/clientlibs/pages/contact-us.min.css" type="text/css">
+        
+    
+
+<script>!function(){var e=setInterval(function(){"undefined"!=typeof $CQ&&($CQ(function(){CQ_Analytics.SegmentMgr.loadSegments("/etc/segmentation"),CQ_Analytics.ClientContextUtils.init("/etc/clientcontext/intel",window.location.pathname.substr(0,window.location.pathname.indexOf(".")))}),clearInterval(e))},100)}();</script>
+
+
+
+
+
+
+
+
+
+<link rel="preload" as="style" href="/etc.clientlibs/settings/wcm/designs/intel/us/en/css/resources/css/intel.rwd.override.css"/>
+<link rel="stylesheet" type="text/css" href="/etc.clientlibs/settings/wcm/designs/intel/us/en/css/resources/css/intel.rwd.override.css"/>
+
+</textarea>
+
+
+<script type="text/javascript"  src="/_xyiXsb-30Wd_z-g2UGQiOd6/5YJ5mJ8c/KnZ7Vkk/WGcvM/R4NchUB"></script></body>
+
+</html>
+
+
